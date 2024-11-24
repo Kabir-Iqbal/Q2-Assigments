@@ -1,0 +1,118 @@
+
+.divstyle{
+    background-color: rgb(3, 14, 32);;
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.footerstyle{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.h2style{
+    font-size: 28px;
+    font-size: bold;
+    text-align: center;
+    margin: 48px 0 5px 0;
+}
+
+.pstyle{
+    font-size: 18px;
+}
+
+.icons{
+    display: flex;
+    margin: 10px auto;
+    margin-bottom: 36px;
+    font-size: 32px;
+    cursor: pointer;
+    gap: 15px;
+}
+.linkdin,.fb{
+   color: blue;
+}
+.fb:hover{
+    color: rgba(48, 48, 253, 0.849);
+ }
+ .linkdin:hover{
+    color: rgba(48, 48, 253, 0.849);
+ }
+
+ @media (max-width: 480px){
+    .footerstyle{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .h2style{
+        font-size: 22px;
+        text-align: center;
+        margin: 48px 0 10px 0;
+    }  
+    .pstyle{
+        font-size: 16px;
+    }  
+    .icons{
+        display: flex;
+        margin: 10px auto;
+        margin-bottom: 36px;
+        font-size: 28px;
+        cursor: pointer;
+        gap: 15px;
+    }
+ }
+
+ @media (max-width: 768px){
+    .footerstyle{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .icons{
+        display: flex;
+        margin: 10px auto;
+        margin-bottom: 36px;
+        font-size: 32px;
+        cursor: pointer;
+        gap: 15px;
+    }
+ }
+ 

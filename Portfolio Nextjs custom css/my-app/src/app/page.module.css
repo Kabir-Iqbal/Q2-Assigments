@@ -1,0 +1,497 @@
+
+.body{
+    background-color: rgb(0,0,33);
+    color: white;
+    height: vh;
+  }
+  
+  /* Landed-Page */
+  .landedpage{
+    display: flex;
+    width: 83%;
+    height: 100vh;
+  
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    font-family: "sans";
+    align-items: center;
+  }
+  
+  /* Right-section */
+  .leftSection{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 78px 40px 64px 0;
+    gap: 8px;
+  }
+  
+  .h2inRight{
+    font-size: 23px;
+  }
+  
+  .h1inRight{
+     font-size: 38px;
+  }
+  
+  .pinRight{
+    font-size: 20px;
+  }
+  /* Buttons */
+  .btnbox{
+    display: flex;
+    width: 95% ;
+    margin: 20px auto 15px;
+    gap: 16px;
+  }
+  
+  .contactbtn{
+    background-color: #3b82f6;
+    padding: 8px 20px 8px 20px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+  }
+  .contactbtn:hover{
+    background-color: #2563eb;
+  }
+  
+  .downloadbtn{
+      border-width: 2px ;
+      border-color:  #1e40af;
+      padding: 8px 20px 8px 20px;
+      border-radius: 12px;
+      cursor: pointer;
+      background-color: black;
+      color: white;
+  }
+  .downloadbtn:hover{
+    border-color: #60a5fa;
+  }
+  
+  /* left-section*/
+  .rightsection{
+    width: 320px;
+    height: 320px;
+    background-color: #60a5fa;
+    border-width: 1px;
+    border-color:#1d4ed8 ;
+    margin: 20px 0 20px 0;
+    margin-left: 24px;
+    border-radius: 100%;
+  }
+  .landedimage{
+      width: 320px;
+      height: 320px;
+      border-radius: 9999px;
+  }
+  
+  
+  /* About page */
+  .aboutbox{
+     width: 83%;
+     height: 100vh;
+     margin: 70px auto;
+     font-family: "sans";
+     scroll-margin: 80px;
+  
+  
+  }
+  
+  .h2about{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .h3about{
+    margin-top: 48px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .h3firstline{
+    width: 27%;
+  }
+  
+  .aboutp{
+    font-size: 14px;
+    margin: 8px 0 8px 0;
+  }
+  
+  .h3about2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 56px;
+  }
+  
+  .h3secondline{
+    width: 12%;
+  }
+  .h3thirdline{
+    width: 10%;
+  }
+  .h3footerline{
+    width: 66%;
+    height: 1px;
+    margin: 80px auto 0;
+  }
+  
+  /* Skills */
+  .skillpage {
+    width: 75%;
+    margin: 0 auto;
+    scroll-margin-top: 100px;
+  }
+  
+  .skillbox{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  .h2skill{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 48px 0;
+  }
+  
+  .card{
+    width: 256px;
+    height: 256px;
+    background-color: #64748b;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+  }
+  .card:hover{
+    scale: 1.1;
+  }
+  
+  .logoimage{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 24px;
+  }
+  .h3style{
+    font-size: 20px;
+    margin: 8px 0;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .pskill{
+    
+    margin-top: 2px;
+    font-size: 16px;
+  
+  }
+  .footerskillline{
+    width: 66%;
+    height: 1px;
+    margin: 48px auto;
+  
+  }
+  
+  /* Contact Form */
+  .contactbox{
+    width: 75%;
+    margin: 0 auto;
+    font-family: "sans";
+    padding-left: 12px;
+    scroll-margin-top: 56px ;
+  }
+  .formbox{
+    width: 56%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacth2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 48px 0 24px 0;
+  }
+  
+  .pcontact{
+    font-size: 22px;
+    font-weight:400;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .valueinput{
+    width: 98%;
+    height: 28px;
+    border-radius: 2px;
+    color: black;
+    padding: 0 4px 0 4px;
+  }
+  
+  .valuetext{
+    width: 98%;
+    height: 48px;
+    border-radius: 2px;
+    color: black;
+    padding: 0 4px 0 4px;
+  }
+  
+  .btnsumbitbox{
+    text-align: center;
+  }
+  .subbtn{
+    border-radius: 16px;
+    padding-left: 32px;
+    padding: 3px 32px 3px 32px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #1f2937;
+    border-width: 2px;
+    border-color: #1e3a8a;
+  }
+  .subbtn:hover{
+    border-color: #93c5fd ;
+  }
+  
+  
+  /* Rspnsive For mobile */
+  
+  @media (max-width : 480px) {
+    .landedpage{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      padding: 80px 0 80px 0;
+      margin: 0 auto;
+     
+    }
+    .leftSection{
+      display: flex;
+      flex-direction: column;
+      width: 97%;
+      margin: 80px auto;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+  
+    .btnbox{
+      display: flex;
+      width: 98% ;
+      margin: 15px auto 15px;
+      gap: 8px;
+    }
+    .contactbtn{
+      padding: 5px 15px 5px 15px;
+      font-size: 12px;
+    }
+    
+    .downloadbtn{
+        padding: 5px 15px 5px 15px;
+        font-size: 12px;
+    }
+    .h2inRight{
+      font-size: 17px;
+    }
+    
+    .h1inRight{
+       font-size: 24px;
+    }
+    
+    .pinRight{
+      font-size: 15px;
+      word-spacing: 2px;
+    }
+  
+  .rightsection{
+    width: 270px;
+    height: 270px;
+    margin: 70px auto 0;
+    order: -1;
+  }
+  .landedimage{
+    width: 270px;
+    height: 270px;
+  }
+  .line{
+  width: 50%;
+  height: 1px;
+  }
+  
+  /* about */
+  .aboutbox{
+    width: 83%;
+    height: 100vh;
+    margin: 100px auto;
+    font-family: "sans";
+    scroll-margin: 80px;
+  }
+  .h2about{
+    font-size: 28px;
+  }
+  
+  .h3about{
+    margin-top: 44px;
+    font-weight: bold;
+    font-size: 17px;
+   
+  }
+  
+  .h3firstline{
+    width: 80%;
+    margin-bottom: 8px;
+  }
+  
+  .aboutp{
+    font-size: 12px;
+    word-spacing: 1px;
+    margin: 8px 0 8px 0;
+  }
+  
+  .h3about2{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 46px;
+  }
+  
+  .h3secondline{
+    width: 40%;
+    margin-bottom: 5px;
+  }
+  .h3thirdline{
+    width: 30%;
+    margin-bottom: 5px;
+  }
+  .h3footerline{
+    width: 66%;
+    height: 1px;
+    margin: 80px auto 0;
+  }
+  
+  /* skill */
+  .skillpage {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* form */
+  .contactbox{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .formbox{
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .contacth2{
+    font-size: 22px;
+  }
+  
+  .pcontact{
+    font-size: 19px;
+  }
+  
+  .valueinput{
+    width: 98%;
+    height: 28px;
+    border-radius: 2px;
+    color: black;
+    padding: 0 4px 0 4px;
+  }
+  
+  .subbtn{
+    padding: 3px 20px 3px 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  }
+  
+  
+  /* Responsive for tablet */
+  @media (min-width:481px) and (max-width: 768px){
+    .landedpage{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      padding: 80px 0 80px 0;
+      margin: 0 auto;
+    }
+  
+    .leftSection{
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      margin: 70px auto;
+      gap: 8px;
+      
+    }
+  
+  .rightsection{
+    width: 320px;
+    height: 320px;
+    margin: 80px auto 0px;
+    order: -1;
+  }
+  .h2inRight{
+    font-size: 18px;
+  }
+  
+  .h1inRight{
+     font-size: 26px;
+     word-spacing: 3px;
+  }
+  
+  .pinRight{
+    font-size: 17px;
+    word-spacing: 2px;
+  }
+  .landedimage{
+    width: 320px;
+    height: 320px;
+  }
+  .aboutbox{
+    width: 83%;
+    height: 100vh;
+    margin: 140px auto;
+    font-family: "sans";
+    scroll-margin: 80px;
+    
+  }
+  .h2skill{
+    margin-top: 0;
+  }
+  .line{
+    width: 50%;
+    height: 1px;
+    }
+    .skillpage {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .contactbox{
+      width: 95%;
+      margin: 0 auto;
+    }
+    .formbox{
+      width: 95%;
+      margin: 0 auto;
+    }
+  
+  
+  }
